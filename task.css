@@ -1,0 +1,72 @@
+body
+{
+    background:rgb(255, 72, 0);
+    border: black ;
+}
+.n2 
+{
+    background:rgb(211, 233, 10); 
+}
+.s2
+{
+    display:flex;
+    flex-wrap: wrap;
+    background:rgb(218, 233, 10);
+
+}
+.s2 a {
+    width:20%;
+    padding:0;
+   
+}
+.s2 a button {
+    width:100%;
+    height:50px;
+    font-size:20px;
+    font-weight: bold;
+    background:rgba(218, 221, 8, 0.979);
+  border: none;
+    
+}
+.s2 a button:hover
+{
+    background:rgb(111, 119, 3);
+    
+}
+.f2 
+{
+    background:rgb(1, 1, 24);
+    color:white;
+    text-align:justify;
+    padding:5%;
+    font-size:18px;
+    box-shadow: 5px 4px 5px black;
+}
+.f2 h1{
+    color:cyan;
+}
+.f2 a 
+{
+    text-align: right;
+    text-decoration:none;
+   
+}
+.f2 div span img {
+width: 150px;
+height: 200px;
+left:10px;
+padding-left:10px;
+}
+body::-webkit-scrollbar
+{
+    width:0.7rem;
+   
+}
+body::-webkit-scrollbar-track
+{
+background-color: rgb(1, 1, 54);
+}
+body::-webkit-scrollbar-thumb
+{
+    background-color: cyan;
+}
